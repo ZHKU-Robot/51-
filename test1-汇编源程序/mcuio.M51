@@ -1,0 +1,79 @@
+BL51 BANKED LINKER/LOCATER V6.22                                                        11/01/2020  22:47:09  PAGE 1
+
+
+BL51 BANKED LINKER/LOCATER V6.22, INVOKED BY:
+D:\KEIL\C51\BIN\BL51.EXE mcuIO.obj TO mcuio RAMSIZE (256)
+
+
+INPUT MODULES INCLUDED:
+  mcuIO.obj (MCUIO)
+
+
+LINK MAP OF MODULE:  mcuio (MCUIO)
+
+
+            TYPE    BASE      LENGTH    RELOCATION   SEGMENT NAME
+            -----------------------------------------------------
+
+            * * * * * * *   D A T A   M E M O R Y   * * * * * * *
+            REG     0000H     0008H     ABSOLUTE     "REG BANK 0"
+
+            * * * * * * *   C O D E   M E M O R Y   * * * * * * *
+            CODE    0000H     006CH     ABSOLUTE     
+
+
+
+SYMBOL TABLE OF MODULE:  mcuio (MCUIO)
+
+  VALUE           TYPE          NAME
+  ----------------------------------
+
+  -------         MODULE        MCUIO
+  D:00E0H         SYMBOL        ACC
+  C:0057H         SYMBOL        DELAY
+  C:0059H         SYMBOL        DELAY1
+  C:005BH         SYMBOL        DELAY2
+  C:005DH         SYMBOL        DELAY3
+  C:0030H         SYMBOL        HA1S
+  C:0034H         SYMBOL        HA1S1
+  C:003FH         SYMBOL        HA1S2
+  C:004CH         SYMBOL        HA1S3
+  C:0034H         SYMBOL        LOOP
+  D:0090H         SYMBOL        P1
+  D:00B0H         SYMBOL        P3
+  C:0000H         LINE#         2
+  C:0030H         LINE#         5
+  C:0032H         LINE#         6
+  C:0034H         LINE#         9
+  C:0037H         LINE#         10
+  C:0039H         LINE#         11
+  C:003CH         LINE#         12
+  C:003FH         LINE#         13
+  C:0042H         LINE#         14
+  C:0044H         LINE#         15
+  C:0047H         LINE#         16
+  C:004AH         LINE#         17
+  C:004CH         LINE#         20
+  C:004DH         LINE#         21
+  C:004FH         LINE#         22
+  C:0051H         LINE#         23
+  C:0053H         LINE#         24
+  C:0055H         LINE#         25
+BL51 BANKED LINKER/LOCATER V6.22                                                      11/01/2020  22:47:09  PAGE 2
+
+
+  C:0057H         LINE#         27
+  C:0059H         LINE#         28
+  C:005BH         LINE#         29
+  C:005DH         LINE#         30
+  C:005FH         LINE#         31
+  C:0061H         LINE#         32
+  C:0063H         LINE#         33
+  C:0065H         LINE#         34
+  C:0067H         LINE#         35
+  C:0069H         LINE#         36
+  C:006BH         LINE#         37
+  -------         ENDMOD        MCUIO
+
+Program Size: data=8.0 xdata=0 code=108
+LINK/LOCATE RUN COMPLETE.  0 WARNING(S),  0 ERROR(S)

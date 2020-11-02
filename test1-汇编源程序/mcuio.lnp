@@ -1,0 +1,3 @@
+"mcuIO.obj" 
+TO "mcuio" 
+RAMSIZE(256) 
